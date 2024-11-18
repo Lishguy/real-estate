@@ -33,7 +33,7 @@ const Navbar = () => {
   }, [showMobileMenu]);
 
   return (
-    <div className={`fixed h-20 top-0 left-0 w-full z-10 transition-colors duration-300 ${isScrolled ? 'bg-gray-800' : 'bg-transparent'}`}>
+    <div className={`fixed h-16 top-0 left-0 w-full z-10 transition-colors duration-300 ${isScrolled ? 'bg-gray-800' : 'bg-transparent'}`}>
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-8 lg:px-32'>
         <img src={assets.logo} alt="Logo" />
         <ul className='hidden md:flex md:gap-6 gap-7 text-white'>
